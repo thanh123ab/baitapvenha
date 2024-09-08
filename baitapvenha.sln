@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baitapvenha", "baitapvenha\baitapvenha.csproj", "{BDE3E544-6B6C-4FFD-9C88-5ABCA54B26E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_baitoan", "lib_baitoan\lib_baitoan.csproj", "{09FEF133-1163-436F-922A-1ED1572961C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BDE3E544-6B6C-4FFD-9C88-5ABCA54B26E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDE3E544-6B6C-4FFD-9C88-5ABCA54B26E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDE3E544-6B6C-4FFD-9C88-5ABCA54B26E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FEF133-1163-436F-922A-1ED1572961C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FEF133-1163-436F-922A-1ED1572961C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FEF133-1163-436F-922A-1ED1572961C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FEF133-1163-436F-922A-1ED1572961C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
