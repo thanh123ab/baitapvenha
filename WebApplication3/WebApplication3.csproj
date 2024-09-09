@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\lib_baitoan\lib_baitoan.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -11,10 +11,10 @@ namespace ConsoleAppUsingLibBaiToan
             try
             {
                 // Nhập bán kính và chiều cao
-                Console.Write("Nhập bán kính r (đơn vị cm): ");
+                Console.Write("Nhap ban kinh r (đơn vi cm): ");
                 double r = Convert.ToDouble(Console.ReadLine());
 
-                Console.Write("Nhập chiều cao h (đơn vị cm): ");
+                Console.Write("Nhap chieu cao h (đơn vi cm): ");
                 double h = Convert.ToDouble(Console.ReadLine());
 
                 // Tính toán sử dụng thư viện lib_baitoan
@@ -24,10 +24,10 @@ namespace ConsoleAppUsingLibBaiToan
                 double dienTichToanPhan = Class1.TinhDienTichToanPhan(r, h);
 
                 // Hiển thị kết quả
-                Console.WriteLine("Độ dài đường sinh l: " + l + " cm");
-                Console.WriteLine("Diện tích đáy: " + dienTichDay + " cm²");
-                Console.WriteLine("Diện tích xung quanh: " + dienTichXungQuanh + " cm²");
-                Console.WriteLine("Diện tích toàn phần: " + dienTichToanPhan + " cm²");
+                Console.WriteLine("Do dai đưong sinh l: " + l + " cm");
+                Console.WriteLine("Dien tich đay: " + dienTichDay + " cm²");
+                Console.WriteLine("Dien tich xung quanh: " + dienTichXungQuanh + " cm²");
+                Console.WriteLine("Dien tich toan phan: " + dienTichToanPhan + " cm²");
             }
             catch (FormatException)
             {

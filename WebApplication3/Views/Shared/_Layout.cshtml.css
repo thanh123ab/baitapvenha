@@ -1,48 +1,76 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-  color: #0077cc;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+h1 {
+    color: #333;
+    margin-bottom: 1.5rem;
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+form {
+    display: flex;
+    flex-direction: column;
 }
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+label {
+    margin-bottom: 0.5rem;
+    color: #555;
+    text-align: left;
 }
 
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+button {
+    padding: 0.75rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
 }
+
+    button:hover {
+        background-color: #218838;
+    }
+
+.result {
+    margin-top: 1.5rem;
+    display: none;
+}
+
+    .result p {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .result span {
+        font-weight: bold;
+        color: #333;
+    }
