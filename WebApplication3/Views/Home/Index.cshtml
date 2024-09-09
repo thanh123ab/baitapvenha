@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <html lang="vi">
-   
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +19,7 @@
             <button type="button" id="calculateBtn">Tính Diện Tích</button>
         </form>
 
-        <div id="result" class="result">
+        <div id="result" class="result" style="display:none;">
             <p><strong>Độ dài đường sinh (l):</strong> <span id="l-result"></span> cm</p>
             <p><strong>Diện tích đáy:</strong> <span id="base-area-result"></span> cm²</p>
             <p><strong>Diện tích xung quanh:</strong> <span id="lateral-area-result"></span> cm²</p>
@@ -40,7 +39,7 @@
             }
 
             // Gửi yêu cầu AJAX đến controller
-            fetch('/HinhNon/TinhDienTich', {
+            fetch('/Home/TinhDienTich', {  // URL thay đổi thành Home/TinhDienTich
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
