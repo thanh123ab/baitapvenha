@@ -40,7 +40,9 @@ namespace baitapvenha
             catch (FormatException)
             {
                 Console.WriteLine("Vui lòng nhập số hợp lệ.");
+
             }
+            Console.ReadLine();
         }
     }
 }
